@@ -77,10 +77,6 @@ header {
   background: url("images/icons/bag-icon.png") center no-repeat;
 }
 
-.imac {
-  margin-top: 0;
-  background: url("images/product/imac.jpg");
-}
 
 /* iphone13pro section */
 
@@ -214,6 +210,10 @@ header {
   grid-column: col 5 / span 4 ;
   grid-row: row 2 ;
 }
+.e {
+  grid-column: col / span 9 ;
+  grid-row: row 3 ;
+}
 
 .fitness {
   background: url("images/product/fitness.png");
@@ -236,7 +236,20 @@ header {
   background-size: 70%;
 
 }
+.imac {
+  background: url("images/product/imac.jpg");
+  background-position: center;
+  background-size: 140%;
+
+}
+.footer-nav {
+  background: url("images/product/footer.png");
+  background-position: center;
+  background-size: 90%;
+  background-color: rgb(243, 242, 242);
+}
 footer {
+  margin-top: 0.5em;
   box-sizing: border-box;
   align-items: baseline;
   flex-direction: row;
@@ -258,9 +271,7 @@ li.footer-links {
   background-repeat: no-repeat;
 }
 
-.imac {
-  border-top: none;
-}
+
 
 /* end  */
 
